@@ -1,0 +1,144 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Book Detail Section */
+.book-detail {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.book-info {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.book-cover {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-meta {
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Rating and Review Section */
+.rating-review-section {
+    margin-bottom: 2rem;
+}
+
+.rating-review-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.review-form label {
+    font-weight: bold;
+}
+
+.review-form select,
+.review-form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    padding: 0.75rem;
+    background-color: #ff6f61;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #ff564f;
+}
+
+/* User Reviews Section */
+.reviews-section h2 {
+    margin-bottom: 1.5rem;
+}
+.review-cards{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.review-item {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info strong {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .user-rating {
+    color: #f39c12;
+    font-size: 0.9rem;
+  }
+  
+  .review-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

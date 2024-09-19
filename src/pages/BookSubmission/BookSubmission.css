@@ -1,0 +1,141 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6f61;
+}
+
+.auth-links a {
+    color: #fff;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.login-btn {
+    background-color: #ff6f61;
+}
+
+.signup-btn {
+    background-color: #ff9f80;
+}
+
+.auth-links a:hover {
+    background-color: #ff564f;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.mobile-nav-links {
+    list-style: none;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mobile-nav-links a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* Book Submission Form */
+.book-submission {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    margin-top: 2rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.submission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.submission-form label {
+    font-weight: bold;
+}
+
+.submission-form input[type="text"],
+.submission-form input[type="file"],
+.submission-form select,
+.submission-form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submission-form button {
+    padding: 0.75rem;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submission-form button:hover {
+    background-color: #ff564f;
+}
